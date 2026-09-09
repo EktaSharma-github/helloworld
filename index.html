@@ -1,59 +1,174 @@
-<html>
-    <head>
-        <title>Hello World!</title>
-        <link href="style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
-    </head>
-    <body>
-        <div id="navbar">
-            <a href="#things">Things to do!</a>
-            <a href="#imp">Important Links</a>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ekta Sharma — AI, data, and software portfolio. Multi-agent systems, research automation, financial AI, analytics, and applied machine learning projects.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Ekta Sharma — AI & Data Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ekta Sharma home">ES<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="https://github.com/EktaSharma-github" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> AI · DATA · SOFTWARE</p>
+        <h1>Building systems that turn <em>complex information</em> into useful decisions.</h1>
+        <p class="hero-text">I’m Ekta Sharma. I build AI agents, research workflows, data products, and analytical applications — from autonomous research and financial intelligence to career tools and power-market analytics.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore selected work ↓</a>
+          <a class="button secondary" href="https://github.com/EktaSharma-github" target="_blank" rel="noreferrer">View GitHub ↗</a>
         </div>
-        <div id="header_text">
-            This is my first webpage
+      </div>
+      <div class="hero-card">
+        <div class="terminal-top"><span></span><span></span><span></span><b>portfolio.json</b></div>
+        <pre><code><span class="key">"focus"</span>: [
+  <span class="string">"AI agents"</span>,
+  <span class="string">"research automation"</span>,
+  <span class="string">"data intelligence"</span>,
+  <span class="string">"applied ML"</span>
+],
+<span class="key">"approach"</span>: <span class="string">"build → test → explain"</span>,
+<span class="key">"status"</span>: <span class="value">"always shipping"</span></code></pre>
+      </div>
+    </section>
+
+    <section class="stats container" aria-label="Portfolio highlights">
+      <div><strong>AI-first</strong><span>agents & automation</span></div>
+      <div><strong>Multi-domain</strong><span>finance · energy · careers</span></div>
+      <div><strong>End-to-end</strong><span>data → model → product</span></div>
+      <div><strong>40+</strong><span>repositories in portfolio</span></div>
+    </section>
+
+    <section id="work" class="section container">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2>Projects worth opening.</h2></div>
+        <p>Not a list of buzzwords — these projects show different ways I approach real workflows: orchestrating agents, grounding outputs, analyzing structured data, and shipping usable interfaces.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-meta"><span>01</span><span>AI RESEARCH</span></div>
+          <h3>ResearchPilot</h3>
+          <p>An autonomous research analyst that turns a question into a multi-step research workflow: search, evidence extraction, citation verification, contradiction detection, synthesis, charts, history, and follow-up analysis.</p>
+          <div class="tags"><span>Gemini</span><span>Agents</span><span>Search</span><span>React</span><span>Express</span></div>
+          <a href="https://github.com/EktaSharma-github/ResearchPilot-AI-Autonomous-AI-Research-Analyst" target="_blank" rel="noreferrer">Open project ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>02</span><span>FINANCIAL AI</span></div>
+          <h3>FinAgent AI</h3>
+          <p>A multi-agent financial research and analysis platform designed around specialist agents and a coordinated research workflow.</p>
+          <div class="tags"><span>Multi-agent</span><span>Finance</span><span>RAG</span></div>
+          <a href="https://github.com/EktaSharma-github/FinAgent-AI" target="_blank" rel="noreferrer">Open project ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>03</span><span>CAREER INTELLIGENCE</span></div>
+          <h3>CareerIQ</h3>
+          <p>Resume and job intelligence pipeline: extract documents, structure candidate and job data, calculate match and ATS gaps, evaluate interviews, and provide a grounded career copilot.</p>
+          <div class="tags"><span>Gemini</span><span>Resume AI</span><span>Matching</span><span>Express</span></div>
+          <a href="https://github.com/EktaSharma-github/CareerIQ" target="_blank" rel="noreferrer">Open project ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>04</span><span>DATA INTELLIGENCE</span></div>
+          <h3>QueryPilot AI</h3>
+          <p>An AI-assisted data system focused on turning natural-language questions into useful database analysis with an emphasis on structured workflows and safeguards.</p>
+          <div class="tags"><span>SQL</span><span>RAG</span><span>Analytics</span></div>
+          <a href="https://github.com/EktaSharma-github/QueryPilot-AI" target="_blank" rel="noreferrer">Open project ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>05</span><span>EDTECH AI</span></div>
+          <h3>AI Tutor Pro</h3>
+          <p>A multimodal learning assistant with document and YouTube ingestion, retrieval, tutor conversations, adaptive quizzes, study plans, flashcards, notes, and streaming responses.</p>
+          <div class="tags"><span>RAG</span><span>Embeddings</span><span>React</span><span>Gemini</span></div>
+          <a href="https://github.com/EktaSharma-github/AI-Tutor-Pro" target="_blank" rel="noreferrer">Open project ↗</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>06</span><span>ENERGY ANALYTICS</span></div>
+          <h3>Power & Energy Analytics</h3>
+          <p>A group of applied analytics projects covering power exchange data, thermal generator availability, energy portfolio management, and supply analysis.</p>
+          <div class="tags"><span>Power markets</span><span>Analytics</span><span>Data</span></div>
+          <a href="https://github.com/EktaSharma-github/Power-Exchange-Data" target="_blank" rel="noreferrer">Explore project ↗</a>
+        </article>
+      </div>
+
+      <div class="more-projects">
+        <p>More work includes <strong>DeepResearch-AI</strong>, <strong>KnowledgeForge-AI</strong>, <strong>DataPilot-AI</strong>, <strong>AutoHarvest-AI</strong>, <strong>Causal ML Marketing Optimizer</strong>, <strong>Self-Healing Code Copilot</strong>, <strong>Guardrailed M&amp;A Due Diligence</strong>, and additional data/ML projects.</p>
+        <a href="https://github.com/EktaSharma-github?tab=repositories" target="_blank" rel="noreferrer">See all repositories ↗</a>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="container">
+        <div class="section-heading light">
+          <div><p class="eyebrow">02 / TOOLKIT</p><h2>From model calls to shipped products.</h2></div>
+          <p>I like working across the boundary between experimentation and implementation — making the model useful inside an actual workflow.</p>
         </div>
-        <a href="https://google.com">Google</a>
-        <br>
-        <img src="https://home.iitd.ac.in/images/news/susan-dell.jpg">
-        <h1>Headings</h1>
-        <h3>Timeline so far!</h3>
-        <table border>
-            <tr>
-                <th>Date</th>
-                <th>Event</th>
-            </tr>
-            <tr>
-                <td>20 November 2021</td>
-                <td>Joined College</td>
-            </tr>
-            <tr>
-                <td>9-12 Jan 2022</td>
-                <td>Minors</td>
-            </tr>
-            <tr>
-                <td>14th Jan 2022</td>
-                <td>DevClub First Session</td>
-            </tr>
-        </table>
-        <img src="https://home.iitd.ac.in/images/slider/slide1.jpg" width="50%">
-        <a name="things"></a>
-        <h3>
-            Things to do in IITD
-        </h3>
-        <ol>
-            <li>Make Friends!</li>
-            <li>Explore your interests</li>
-            <!-- <li>Study</li> -->
-            <!-- Please add more interesting stuff -->
-        </ol>
-        <!-- This is a comment -->
-        <a name="imp"></a>
-        <h3>Important Links</h3>
-        <ul>
-            <li><a href="https://moodle.iitd.ac.in" target="_blank" class="moodle">Moodle</a></li>
-            <li><a href="https://webmail.iitd.ac.in/roundcube" target="_blank" class="webmail">WebMail</a></li>
-        </ul>
-    </body>
+        <div class="skill-list">
+          <div><span>AI / ML</span><p>LLM applications · multi-agent systems · RAG · embeddings · prompt engineering · evaluation · applied ML</p></div>
+          <div><span>Data</span><p>SQL · data analysis · statistical reasoning · dashboards · structured extraction · financial & energy analytics</p></div>
+          <div><span>Engineering</span><p>Python · TypeScript · React · Node.js · Express · Vite · REST APIs · Git · GitHub</p></div>
+          <div><span>AI Stack</span><p>Gemini · LangChain · vector retrieval · web/search pipelines · document processing · streaming interfaces</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container about">
+      <div class="about-number">03</div>
+      <div>
+        <p class="eyebrow">ABOUT THE WORK</p>
+        <h2>I’m interested in the part after the demo.</h2>
+        <p>My projects tend to start with a messy problem: too much information, too many steps, or a workflow that is difficult to repeat. I use AI, data, and software engineering to turn that problem into a system that can actually be used.</p>
+        <p>That means thinking about orchestration, grounding, data flow, failure modes, interfaces, and documentation — not only getting a model to produce an impressive answer once.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <p class="eyebrow">04 / LET’S CONNECT</p>
+      <h2>Have a problem worth building?</h2>
+      <p>Explore the repositories, inspect the implementations, and reach out if you want to talk about AI systems, analytics, research automation, or an interesting engineering problem.</p>
+      <div class="contact-links">
+        <a class="button primary" href="https://github.com/EktaSharma-github" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button secondary" href="mailto:ekta.sharma@example.com">Email ↗</a>
+      </div>
+      <p class="small-note">Replace the email address above with your preferred public contact before publishing.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <span>© 2026 Ekta Sharma</span>
+    <span>Built with HTML + CSS · Hosted on GitHub Pages</span>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', event => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          event.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
 </html>
